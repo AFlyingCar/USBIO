@@ -1,3 +1,5 @@
+#ifndef _USBIO_H_
+#define _USBIO_H_
 #include <libusb-1.0/libusb.h>
 
 /*
@@ -101,4 +103,5 @@ n_USBIO::USBIO* usbopen(libusb_class_code type,int interface,bool detach_kernel=
     return usb;
 }
 
+#endif
 
